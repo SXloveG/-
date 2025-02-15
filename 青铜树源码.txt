@@ -1,0 +1,5404 @@
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+if getgenv().ED_AntiKick then
+	return
+end
+
+getgenv().ED_AntiKick = {
+	Enabled = true, -- Set to false if you want to disable the Anti-Kick.
+	SendNotifications = true, -- Set to true if you want to get notified for every event
+	CheckCaller = true -- Set to true if you want to disable kicking by other executed scripts
+}
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『高槻泉』"; Text ="作者:高槻泉"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="刷新成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="读取成功"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『青铜树』"; Text ="显示"; Duration = 4; })
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
+
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglengui/refs/heads/main/JMJMUI.lua"))()        
+local win = ui:new("青铜树")
+--
+local UITab1 = win:Tab("『信息』",'726161853')
+
+local about = UITab1:section("『作者信息』",false)
+
+about:Label("青铜树")
+about:Label("作者QQ：937984260")
+about:Label("QQ群：726161853")
+about:Label("作者：高槻泉")
+about:Label("进群发最新版青铜树")
+about:Label("脚本持续更新中")
+about:Label("帮助者秋明")
+about:Label("籠中鳥何時飛")
+about:Label("脚本随缘优化")
+about:Label("欢迎使用")
+
+ local UITab84 = win:Tab("复制青铜树QQ官群",'726161853')
+帮助者:秋明
+local about = UITab84:section("『LENG Script』",true)
+
+    about:Button("点我复制青铜树交流群群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制解卡群",function()
+    setclipboard("726161853")
+end)
+
+    about:Button("点我复制作者QQ",function()
+    setclipboard("937984260")
+end)
